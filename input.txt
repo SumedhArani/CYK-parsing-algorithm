@@ -1,0 +1,9 @@
+<ST> <STA> <STB> <STC>
+a b
+<ST>
+
+<ST> -> <STA><STB>
+<ST> -> <STB><STC>
+<STA> -> <STB><STA> | a
+<STB> -> <STC><STC> | b
+<STC> -> <STA><STB> | a
